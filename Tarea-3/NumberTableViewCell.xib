@@ -22,24 +22,12 @@
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hn9-DI-j9K">
                         <rect key="frame" x="15" y="15" width="290" height="119.5"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99P-8L-FGe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvI-s1-JoO">
                                 <rect key="frame" x="0.0" y="0.0" width="290" height="119.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvI-s1-JoO">
-                                        <rect key="frame" x="0.0" y="29" width="290" height="61.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="dvI-s1-JoO" firstAttribute="leading" secondItem="99P-8L-FGe" secondAttribute="leading" id="UsT-Yz-VBo"/>
-                                    <constraint firstAttribute="trailing" secondItem="dvI-s1-JoO" secondAttribute="trailing" id="Zui-aO-LTT"/>
-                                    <constraint firstAttribute="bottom" secondItem="dvI-s1-JoO" secondAttribute="bottom" constant="29" id="f2t-yW-0gw"/>
-                                    <constraint firstItem="dvI-s1-JoO" firstAttribute="top" secondItem="99P-8L-FGe" secondAttribute="top" constant="29" id="umZ-Ng-uW4"/>
-                                </constraints>
-                            </view>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.97227032230640986" green="0.97920274172980748" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                     </stackView>
                 </subviews>
